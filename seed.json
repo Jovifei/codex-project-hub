@@ -1,0 +1,245 @@
+[
+  {
+    "project_id": "example-1",
+    "number": 1,
+    "name": "示例项目 1",
+    "category": "示例分组 A",
+    "root": "./workspaces/example-1",
+    "art": "/art/1.svg",
+    "goal": "示例目标：由项目负责人填写并确认，不代表真实项目进度。",
+    "acceptance": [
+      {
+        "id": "a1",
+        "text": "示例验收条件，尚未人工确认"
+      }
+    ],
+    "route": [
+      {
+        "id": "s1",
+        "name": "定义目标",
+        "detail": "记录来源与确认依据"
+      },
+      {
+        "id": "s2",
+        "name": "实现与验证",
+        "detail": "按分支记录证据"
+      }
+    ]
+  },
+  {
+    "project_id": "example-2",
+    "number": 2,
+    "name": "示例项目 2",
+    "category": "示例分组 A",
+    "root": "./workspaces/example-2",
+    "art": "/art/2.svg",
+    "goal": "示例目标：由项目负责人填写并确认，不代表真实项目进度。",
+    "acceptance": [
+      {
+        "id": "a1",
+        "text": "示例验收条件，尚未人工确认"
+      }
+    ],
+    "route": [
+      {
+        "id": "s1",
+        "name": "定义目标",
+        "detail": "记录来源与确认依据"
+      },
+      {
+        "id": "s2",
+        "name": "实现与验证",
+        "detail": "按分支记录证据"
+      }
+    ]
+  },
+  {
+    "project_id": "example-3",
+    "number": 3,
+    "name": "示例项目 3",
+    "category": "示例分组 A",
+    "root": "./workspaces/example-3",
+    "art": "/art/3.svg",
+    "goal": "示例目标：由项目负责人填写并确认，不代表真实项目进度。",
+    "acceptance": [
+      {
+        "id": "a1",
+        "text": "示例验收条件，尚未人工确认"
+      }
+    ],
+    "route": [
+      {
+        "id": "s1",
+        "name": "定义目标",
+        "detail": "记录来源与确认依据"
+      },
+      {
+        "id": "s2",
+        "name": "实现与验证",
+        "detail": "按分支记录证据"
+      }
+    ]
+  },
+  {
+    "project_id": "example-4",
+    "number": 4,
+    "name": "示例项目 4",
+    "category": "示例分组 A",
+    "root": "./workspaces/example-4",
+    "art": "/art/4.svg",
+    "goal": "示例目标：由项目负责人填写并确认，不代表真实项目进度。",
+    "acceptance": [
+      {
+        "id": "a1",
+        "text": "示例验收条件，尚未人工确认"
+      }
+    ],
+    "route": [
+      {
+        "id": "s1",
+        "name": "定义目标",
+        "detail": "记录来源与确认依据"
+      },
+      {
+        "id": "s2",
+        "name": "实现与验证",
+        "detail": "按分支记录证据"
+      }
+    ]
+  },
+  {
+    "project_id": "example-5",
+    "number": 5,
+    "name": "示例项目 5",
+    "category": "示例分组 B",
+    "root": "./workspaces/example-5",
+    "art": "/art/5.svg",
+    "goal": "示例目标：由项目负责人填写并确认，不代表真实项目进度。",
+    "acceptance": [
+      {
+        "id": "a1",
+        "text": "示例验收条件，尚未人工确认"
+      }
+    ],
+    "route": [
+      {
+        "id": "s1",
+        "name": "定义目标",
+        "detail": "记录来源与确认依据"
+      },
+      {
+        "id": "s2",
+        "name": "实现与验证",
+        "detail": "按分支记录证据"
+      }
+    ]
+  },
+  {
+    "project_id": "example-6",
+    "number": 6,
+    "name": "示例项目 6",
+    "category": "示例分组 B",
+    "root": "./workspaces/example-6",
+    "art": "/art/6.svg",
+    "goal": "示例目标：由项目负责人填写并确认，不代表真实项目进度。",
+    "acceptance": [
+      {
+        "id": "a1",
+        "text": "示例验收条件，尚未人工确认"
+      }
+    ],
+    "route": [
+      {
+        "id": "s1",
+        "name": "定义目标",
+        "detail": "记录来源与确认依据"
+      },
+      {
+        "id": "s2",
+        "name": "实现与验证",
+        "detail": "按分支记录证据"
+      }
+    ]
+  },
+  {
+    "project_id": "example-7",
+    "number": 7,
+    "name": "示例项目 7",
+    "category": "示例分组 B",
+    "root": "./workspaces/example-7",
+    "art": "/art/7.svg",
+    "goal": "示例目标：由项目负责人填写并确认，不代表真实项目进度。",
+    "acceptance": [
+      {
+        "id": "a1",
+        "text": "示例验收条件，尚未人工确认"
+      }
+    ],
+    "route": [
+      {
+        "id": "s1",
+        "name": "定义目标",
+        "detail": "记录来源与确认依据"
+      },
+      {
+        "id": "s2",
+        "name": "实现与验证",
+        "detail": "按分支记录证据"
+      }
+    ]
+  },
+  {
+    "project_id": "example-8",
+    "number": 8,
+    "name": "示例项目 8",
+    "category": "示例分组 B",
+    "root": "./workspaces/example-8",
+    "art": "/art/8.svg",
+    "goal": "示例目标：由项目负责人填写并确认，不代表真实项目进度。",
+    "acceptance": [
+      {
+        "id": "a1",
+        "text": "示例验收条件，尚未人工确认"
+      }
+    ],
+    "route": [
+      {
+        "id": "s1",
+        "name": "定义目标",
+        "detail": "记录来源与确认依据"
+      },
+      {
+        "id": "s2",
+        "name": "实现与验证",
+        "detail": "按分支记录证据"
+      }
+    ]
+  },
+  {
+    "project_id": "example-9",
+    "number": 9,
+    "name": "示例项目 9",
+    "category": "示例分组 B",
+    "root": "./workspaces/example-9",
+    "art": "/art/9.svg",
+    "goal": "示例目标：由项目负责人填写并确认，不代表真实项目进度。",
+    "acceptance": [
+      {
+        "id": "a1",
+        "text": "示例验收条件，尚未人工确认"
+      }
+    ],
+    "route": [
+      {
+        "id": "s1",
+        "name": "定义目标",
+        "detail": "记录来源与确认依据"
+      },
+      {
+        "id": "s2",
+        "name": "实现与验证",
+        "detail": "按分支记录证据"
+      }
+    ]
+  }
+]

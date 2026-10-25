@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "event_id": "REPLACE_UNIQUE_RESTORE_ID",
+  "action": "restore",
+  "project_id": "example-1",
+  "scope": "project",
+  "expected_revision": 1,
+  "actor": "REPLACE_OPERATOR",
+  "reason": "Explicit restore request",
+  "data": {}
+}

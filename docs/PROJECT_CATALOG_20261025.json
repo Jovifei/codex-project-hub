@@ -1,0 +1,516 @@
+{
+  "observed_at": "2026-10-25T05:54:42Z",
+  "candidate_count": 12,
+  "scope": "旧seed9+短剧/学习/健康3；非用户确认的精确总数",
+  "local_alias_verification": "pending",
+  "projects": [
+    {
+      "id": "jovi-automation",
+      "repository": "Jovifei/Automation_Jovi",
+      "visibility": "private",
+      "goal": "中文数字产品工作台",
+      "goal_status": "README历史定位，最终目标待用户确认",
+      "default_branch": "main",
+      "head_sha": "072d137e9462f2cb6366218aad47d1869f97f886",
+      "head_committed_at": "2026-10-07T07:59:43Z",
+      "stage": "unknown",
+      "current_stage": "unknown",
+      "stage_source": "Current execution not verified; see historical readme_stage_claim and open_prs metadata separately.",
+      "completion_percentage": null,
+      "evidence_url": "https://github.com/Jovifei/Automation_Jovi/blob/072d137e9462f2cb6366218aad47d1869f97f886/README.md",
+      "previous_catalog_id": "automation-jovi",
+      "baseline_observed_at": "2026-10-25T05:54:42Z",
+      "readme_stage_claim": "离线合成交易验收入口",
+      "execution_status": "unknown",
+      "open_prs": {
+        "checked_at": "2026-10-25T06:22:29.613Z",
+        "status": "found",
+        "items": [
+          {
+            "number": 6,
+            "title": "PR6: per-step Chinese operations, independent approval state, and consistent Commerce/XI recovery",
+            "url": "https://github.com/Jovifei/Automation_Jovi/pull/6",
+            "head_ref": "codex/oct7-xianyu-controlled-workflow",
+            "head_sha": "ba6813a82dd22e129daffc0637214146211ae022",
+            "base_ref": "main",
+            "updated_at": "2026-10-11T16:25:25Z",
+            "draft": true
+          }
+        ],
+        "selection": "最多2项，state=open，sort=updated，direction=desc；非全部开放PR清单",
+        "source_url": "https://api.github.com/repos/Jovifei/Automation_Jovi/pulls?state=open&sort=updated&direction=desc&per_page=2"
+      }
+    },
+    {
+      "id": "ai-photography-director-app",
+      "repository": "Jovifei/ai-photography-director-app",
+      "visibility": "public",
+      "goal": "Android优先AI摄影现场导演App",
+      "goal_status": "README历史定位，最终目标待用户确认",
+      "default_branch": "main",
+      "head_sha": "5901a06defb67369035de7cb64cd5ca2d94c638c",
+      "head_committed_at": "2026-10-07T06:33:05Z",
+      "stage": "unknown",
+      "current_stage": "unknown",
+      "stage_source": "Current execution not verified; see historical readme_stage_claim and open_prs metadata separately.",
+      "completion_percentage": null,
+      "evidence_url": "https://github.com/Jovifei/ai-photography-director-app/blob/5901a06defb67369035de7cb64cd5ca2d94c638c/README.md",
+      "previous_catalog_id": "ai-photography-director",
+      "baseline_observed_at": "2026-10-25T05:54:42Z",
+      "readme_stage_claim": "unknown：README候选叙述早于HEAD，需精确状态复核",
+      "execution_status": "unknown",
+      "open_prs": {
+        "checked_at": "2026-10-25T06:22:29.582Z",
+        "status": "found",
+        "items": [
+          {
+            "number": 21,
+            "title": "T17: qualify offline guided capture continuity across process restart",
+            "url": "https://github.com/Jovifei/ai-photography-director-app/pull/21",
+            "head_ref": "codex/t17-offline-guided-continuity-20261002",
+            "head_sha": "96ec9b3f0270636000acbea163a7b64e5ca5dffc",
+            "base_ref": "codex/t16-camera-lifecycle-accessibility-20261002",
+            "updated_at": "2026-10-01T21:56:19Z",
+            "draft": true
+          },
+          {
+            "number": 20,
+            "title": "T16: camera lifecycle, permission recovery and accessibility hardening",
+            "url": "https://github.com/Jovifei/ai-photography-director-app/pull/20",
+            "head_ref": "codex/t16-camera-lifecycle-accessibility-20261002",
+            "head_sha": "acfc1a515c8b5ec99ca56d01b4d9c637cc27c94e",
+            "base_ref": "codex/t15-camera-capability-controls-20261002",
+            "updated_at": "2026-10-01T20:19:38Z",
+            "draft": true
+          }
+        ],
+        "selection": "最多2项，state=open，sort=updated，direction=desc；非全部开放PR清单",
+        "source_url": "https://api.github.com/repos/Jovifei/ai-photography-director-app/pulls?state=open&sort=updated&direction=desc&per_page=2"
+      }
+    },
+    {
+      "id": "nightly-photo-intelligence-pipeline",
+      "repository": "Jovifei/nightly-photo-intelligence-pipeline",
+      "visibility": "public",
+      "goal": "摄影收藏到结构化知识的离线生产流水线",
+      "goal_status": "README历史定位，最终目标待用户确认",
+      "default_branch": "main",
+      "head_sha": "fd9ded5698a6521aef5ff0c26f211bdbd7d4b1e3",
+      "head_committed_at": "2026-10-04T16:13:43Z",
+      "stage": "unknown",
+      "current_stage": "unknown",
+      "stage_source": "Current execution not verified; see historical readme_stage_claim and open_prs metadata separately.",
+      "completion_percentage": null,
+      "evidence_url": "https://github.com/Jovifei/nightly-photo-intelligence-pipeline/blob/fd9ded5698a6521aef5ff0c26f211bdbd7d4b1e3/README.md",
+      "previous_catalog_id": "nightly-photo-intelligence",
+      "baseline_observed_at": "2026-10-25T05:54:42Z",
+      "readme_stage_claim": "README历史N2B1P待外部审查，N2B2 LOCKED",
+      "execution_status": "unknown",
+      "open_prs": {
+        "checked_at": "2026-10-25T06:22:29.502Z",
+        "status": "none",
+        "items": [],
+        "selection": "最多2项，state=open，sort=updated，direction=desc；非全部开放PR清单",
+        "source_url": "https://api.github.com/repos/Jovifei/nightly-photo-intelligence-pipeline/pulls?state=open&sort=updated&direction=desc&per_page=2"
+      }
+    },
+    {
+      "id": "openclaw-videofactory",
+      "repository": "Jovifei/OpenClaw_VideoFactory",
+      "visibility": "public",
+      "goal": "工程知识及产品演示视频工厂",
+      "goal_status": "README历史定位，最终目标待用户确认",
+      "default_branch": "main",
+      "head_sha": "40dc9aca04d407116781889ec099bd5e9e6d1fff",
+      "head_committed_at": "2026-10-25T04:40:24Z",
+      "stage": "unknown",
+      "current_stage": "unknown",
+      "stage_source": "Current execution not verified; see historical readme_stage_claim and open_prs metadata separately.",
+      "completion_percentage": null,
+      "evidence_url": "https://github.com/Jovifei/OpenClaw_VideoFactory/blob/40dc9aca04d407116781889ec099bd5e9e6d1fff/README.md",
+      "previous_catalog_id": "openclaw-video-factory",
+      "baseline_observed_at": "2026-10-25T05:54:42Z",
+      "readme_stage_claim": "Phase 1 / in_progress / 正式Gate未通过",
+      "execution_status": "unknown",
+      "open_prs": {
+        "checked_at": "2026-10-25T06:22:29.538Z",
+        "status": "found",
+        "items": [
+          {
+            "number": 2,
+            "title": "fix: fence Phase 1 jobs and bind media/audio review identities",
+            "url": "https://github.com/Jovifei/OpenClaw_VideoFactory/pull/2",
+            "head_ref": "codex/p1-consolidation-review-20261024",
+            "head_sha": "852ce3416c9ee70848e1dd86ae007cc5634c3cb5",
+            "base_ref": "main",
+            "updated_at": "2026-10-25T04:27:06Z",
+            "draft": true
+          }
+        ],
+        "selection": "最多2项，state=open，sort=updated，direction=desc；非全部开放PR清单",
+        "source_url": "https://api.github.com/repos/Jovifei/OpenClaw_VideoFactory/pulls?state=open&sort=updated&direction=desc&per_page=2"
+      }
+    },
+    {
+      "id": "star-photo-addr",
+      "repository": "Jovifei/Star_photo_addr",
+      "visibility": "public",
+      "goal": "星空摄影与天气条件选址决策",
+      "goal_status": "README历史定位，最终目标待用户确认",
+      "default_branch": "main",
+      "head_sha": "ba73851c08e8566f756f8dbf6e6382e00fed3faf",
+      "head_committed_at": "2026-10-24T04:59:00Z",
+      "stage": "unknown",
+      "current_stage": "unknown",
+      "stage_source": "Current execution not verified; see historical readme_stage_claim and open_prs metadata separately.",
+      "completion_percentage": null,
+      "evidence_url": "https://github.com/Jovifei/Star_photo_addr/blob/ba73851c08e8566f756f8dbf6e6382e00fed3faf/README.md",
+      "previous_catalog_id": "star-photo-addr",
+      "baseline_observed_at": "2026-10-25T05:54:42Z",
+      "readme_stage_claim": "unknown：README列功能与Beta，不构成完整验收",
+      "execution_status": "unknown",
+      "open_prs": {
+        "checked_at": "2026-10-25T06:22:29.603Z",
+        "status": "found",
+        "items": [
+          {
+            "number": 55,
+            "title": "fix(cloudsea): 区分新鲜部分覆盖与过期数据的移动端提示",
+            "url": "https://github.com/Jovifei/Star_photo_addr/pull/55",
+            "head_ref": "codex/cloudsea-partial-fresh-label-20261024",
+            "head_sha": "e7d723de50edcc3c654280464769c48b92fe909f",
+            "base_ref": "main",
+            "updated_at": "2026-10-24T03:16:41Z",
+            "draft": true
+          },
+          {
+            "number": 52,
+            "title": "Audit and implement scoped location identity, source clocks and DST-safe forecasts",
+            "url": "https://github.com/Jovifei/Star_photo_addr/pull/52",
+            "head_ref": "codex/cloud-identity-provenance-dst-20261007",
+            "head_sha": "e0573b83ef0ccb7af9847eed097635044a85960a",
+            "base_ref": "codex/overnight-forecast-coverage-20261003",
+            "updated_at": "2026-10-07T15:00:55Z",
+            "draft": true
+          }
+        ],
+        "selection": "最多2项，state=open，sort=updated，direction=desc；非全部开放PR清单",
+        "source_url": "https://api.github.com/repos/Jovifei/Star_photo_addr/pulls?state=open&sort=updated&direction=desc&per_page=2"
+      }
+    },
+    {
+      "id": "matelink",
+      "repository": "Jovifei/tesla-master-mimo",
+      "visibility": "public",
+      "goal": "Tesla MateLink双端监控应用",
+      "goal_status": "README历史定位，最终目标待用户确认",
+      "default_branch": "main",
+      "head_sha": "427de74e273cd86527aca4b8fd1386e38c1336e8",
+      "head_committed_at": "2026-10-24T05:44:12Z",
+      "stage": "unknown",
+      "current_stage": "unknown",
+      "stage_source": "Current execution not verified; see historical readme_stage_claim and open_prs metadata separately.",
+      "completion_percentage": null,
+      "evidence_url": "https://github.com/Jovifei/tesla-master-mimo/blob/427de74e273cd86527aca4b8fd1386e38c1336e8/README.md",
+      "previous_catalog_id": "tesla-master-mimo",
+      "baseline_observed_at": "2026-10-25T05:54:42Z",
+      "readme_stage_claim": "unknown：双端工程存在，设备与发布未验",
+      "execution_status": "unknown",
+      "open_prs": {
+        "checked_at": "2026-10-25T06:22:29.548Z",
+        "status": "found",
+        "items": [
+          {
+            "number": 27,
+            "title": "Integrate data foundation and build 71 parked charge breakdown",
+            "url": "https://github.com/Jovifei/tesla-master-mimo/pull/27",
+            "head_ref": "codex/app-foundation-ui-integrate-20261025",
+            "head_sha": "4ceea15834caa4ad0c8797ae7d54497136fadefd",
+            "base_ref": "main",
+            "updated_at": "2026-10-25T06:18:05Z",
+            "draft": true
+          },
+          {
+            "number": 28,
+            "title": "[MP parity 1/N] 仪表盘: readiness 占位与充电剩余格式对齐 (base 5aa336c5 / App build70)",
+            "url": "https://github.com/Jovifei/tesla-master-mimo/pull/28",
+            "head_ref": "codex/mp-dashboard-parity-20261025",
+            "head_sha": "d41964f7682046b07fb17d31bec1873555398ff7",
+            "base_ref": "codex/tesla-auth-devtools-fallback-20261024",
+            "updated_at": "2026-10-25T06:12:33Z",
+            "draft": true
+          }
+        ],
+        "selection": "最多2项，state=open，sort=updated，direction=desc；非全部开放PR清单",
+        "source_url": "https://api.github.com/repos/Jovifei/tesla-master-mimo/pulls?state=open&sort=updated&direction=desc&per_page=2"
+      }
+    },
+    {
+      "id": "etf-fund-analysis",
+      "repository": "Jovifei/ETF-Fund-Analysis",
+      "visibility": "public",
+      "goal": "本地计算与有界展示的ETF/LOF研究工作台",
+      "goal_status": "README历史定位，最终目标待用户确认",
+      "default_branch": "main",
+      "head_sha": "1f24632a6618a53b4ec2f13c6c667dfeac5d9f15",
+      "head_committed_at": "2026-10-25T05:49:34Z",
+      "stage": "unknown",
+      "current_stage": "unknown",
+      "stage_source": "Current execution not verified; see historical readme_stage_claim and open_prs metadata separately.",
+      "completion_percentage": null,
+      "evidence_url": "https://github.com/Jovifei/ETF-Fund-Analysis/blob/1f24632a6618a53b4ec2f13c6c667dfeac5d9f15/README.md",
+      "previous_catalog_id": "etf-fund-analysis",
+      "baseline_observed_at": "2026-10-25T05:54:42Z",
+      "readme_stage_claim": "网页已有、独立手机App未交付；research_only",
+      "execution_status": "unknown",
+      "open_prs": {
+        "checked_at": "2026-10-25T06:22:29.601Z",
+        "status": "found",
+        "items": [
+          {
+            "number": 53,
+            "title": "c2c_a7f2: trusted historical acceptance and bounded same-generation consumption",
+            "url": "https://github.com/Jovifei/ETF-Fund-Analysis/pull/53",
+            "head_ref": "codex/c2c-a7f2-trusted-consumption-20261023",
+            "head_sha": "fdaf5426585d64800dbff60656797cd75306f19e",
+            "base_ref": "main",
+            "updated_at": "2026-10-24T01:46:58Z",
+            "draft": true
+          },
+          {
+            "number": 50,
+            "title": "docs: 更正 PR49 合并与 CI 状态，保留生产验收门槛",
+            "url": "https://github.com/Jovifei/ETF-Fund-Analysis/pull/50",
+            "head_ref": "docs/cadence-status-reconciliation-20261022",
+            "head_sha": "d4c9bc81fe58f6afe3248db03ba46fe33cd3bda8",
+            "base_ref": "main",
+            "updated_at": "2026-10-21T17:16:25Z",
+            "draft": true
+          }
+        ],
+        "selection": "最多2项，state=open，sort=updated，direction=desc；非全部开放PR清单",
+        "source_url": "https://api.github.com/repos/Jovifei/ETF-Fund-Analysis/pulls?state=open&sort=updated&direction=desc&per_page=2"
+      }
+    },
+    {
+      "id": "tesla-speed",
+      "repository": "Jovifei/Tesla_Simulate_vico",
+      "visibility": "public",
+      "goal": "车辆虚拟引擎音色与Android实时声浪",
+      "goal_status": "README历史定位，最终目标待用户确认",
+      "default_branch": "main",
+      "head_sha": "6e4cf1437972caf383baab3f987de0ebf2db373d",
+      "head_committed_at": "2026-10-03T14:29:55Z",
+      "stage": "unknown",
+      "current_stage": "unknown",
+      "stage_source": "Current execution not verified; see historical readme_stage_claim and open_prs metadata separately.",
+      "completion_percentage": null,
+      "evidence_url": "https://github.com/Jovifei/Tesla_Simulate_vico/blob/6e4cf1437972caf383baab3f987de0ebf2db373d/README.md",
+      "previous_catalog_id": "tesla-simulate-vico",
+      "baseline_observed_at": "2026-10-25T05:54:42Z",
+      "readme_stage_claim": "S12 → 人类听审Gate → Android实时声浪",
+      "execution_status": "unknown",
+      "open_prs": {
+        "checked_at": "2026-10-25T06:22:29.583Z",
+        "status": "found",
+        "items": [
+          {
+            "number": 41,
+            "title": "[Draft] HC-C1: opt-in coordinated long-take continuous voice (Web/native evidence-gated)",
+            "url": "https://github.com/Jovifei/Tesla_Simulate_vico/pull/41",
+            "head_ref": "codex-hellcat-continuous-stage-20261025",
+            "head_sha": "7f5c35016bec159effa635e6f76cba15e4cdb86b",
+            "base_ref": "codex-hellcat-realism-20261024",
+            "updated_at": "2026-10-25T05:42:07Z",
+            "draft": true
+          },
+          {
+            "number": 39,
+            "title": "Vico Web Lab: isolated six-vehicle algorithm port and self-hosted web plan",
+            "url": "https://github.com/Jovifei/Tesla_Simulate_vico/pull/39",
+            "head_ref": "codex-web-vico-lab-20261015",
+            "head_sha": "bba46cd952bea057521ab1da8bb49101fade847e",
+            "base_ref": "codex-remote-stage-20261011-integration",
+            "updated_at": "2026-10-24T03:26:16Z",
+            "draft": true
+          }
+        ],
+        "selection": "最多2项，state=open，sort=updated，direction=desc；非全部开放PR清单",
+        "source_url": "https://api.github.com/repos/Jovifei/Tesla_Simulate_vico/pulls?state=open&sort=updated&direction=desc&per_page=2"
+      }
+    },
+    {
+      "id": "medcial-box",
+      "repository": "Jovifei/Medcial-box",
+      "visibility": "public",
+      "goal": "家庭共享药箱与照护记录",
+      "goal_status": "README历史定位，最终目标待用户确认",
+      "default_branch": "main",
+      "head_sha": "07dad9864aadf224bf8657df35041a53e76a6be7",
+      "head_committed_at": "2026-10-25T05:17:08Z",
+      "stage": "unknown",
+      "current_stage": "unknown",
+      "stage_source": "Current execution not verified; see historical readme_stage_claim and open_prs metadata separately.",
+      "completion_percentage": null,
+      "evidence_url": "https://github.com/Jovifei/Medcial-box/blob/07dad9864aadf224bf8657df35041a53e76a6be7/README.md",
+      "previous_catalog_id": "medcial-box",
+      "baseline_observed_at": "2026-10-25T05:54:42Z",
+      "readme_stage_claim": "PARTIAL / 1.0.6候选 / Android build 10",
+      "execution_status": "unknown",
+      "open_prs": {
+        "checked_at": "2026-10-25T06:22:29.524Z",
+        "status": "found",
+        "items": [
+          {
+            "number": 7,
+            "title": "药箱1.0.6 build10：用途候选复审与既有部署身份门禁",
+            "url": "https://github.com/Jovifei/Medcial-box/pull/7",
+            "head_ref": "codex/medbox-fix-batch-20261025",
+            "head_sha": "07dad9864aadf224bf8657df35041a53e76a6be7",
+            "base_ref": "codex/medbox-106-p1p3-20261023",
+            "updated_at": "2026-10-25T05:33:01Z",
+            "draft": true
+          }
+        ],
+        "selection": "最多2项，state=open，sort=updated，direction=desc；非全部开放PR清单",
+        "source_url": "https://api.github.com/repos/Jovifei/Medcial-box/pulls?state=open&sort=updated&direction=desc&per_page=2"
+      }
+    },
+    {
+      "id": "ai-short-vidio-claw",
+      "repository": "Jovifei/AI-short-vidio-claw",
+      "visibility": "public",
+      "goal": "角色一致、可追溯9:16 AI短剧生产线",
+      "goal_status": "README历史定位，最终目标待用户确认",
+      "default_branch": "main",
+      "head_sha": "e3f74281fc14d6bcd05e6c1f2657a07c77dc0f34",
+      "head_committed_at": "2026-10-11T07:33:45Z",
+      "stage": "unknown",
+      "current_stage": "unknown",
+      "stage_source": "Current execution not verified; see historical readme_stage_claim and open_prs metadata separately.",
+      "completion_percentage": null,
+      "evidence_url": "https://github.com/Jovifei/AI-short-vidio-claw/blob/e3f74281fc14d6bcd05e6c1f2657a07c77dc0f34/README.md",
+      "previous_catalog_id": "ai-short-vidio-claw",
+      "baseline_observed_at": "2026-10-25T05:54:42Z",
+      "readme_stage_claim": "源图库交付、试拍候选；不等于T1或30镜完成",
+      "execution_status": "unknown",
+      "open_prs": {
+        "checked_at": "2026-10-25T06:22:29.554Z",
+        "status": "found",
+        "items": [
+          {
+            "number": 12,
+            "title": "FID1 v0.2.2：修复正常采样的设备与精度误拒绝",
+            "url": "https://github.com/Jovifei/AI-short-vidio-claw/pull/12",
+            "head_ref": "codex/fid1-remote-repair",
+            "head_sha": "24004ea3673672330d48d3f2f43cae2e646d2ef7",
+            "base_ref": "main",
+            "updated_at": "2026-10-15T07:20:42Z",
+            "draft": false
+          }
+        ],
+        "selection": "最多2项，state=open，sort=updated，direction=desc；非全部开放PR清单",
+        "source_url": "https://api.github.com/repos/Jovifei/AI-short-vidio-claw/pulls?state=open&sort=updated&direction=desc&per_page=2"
+      }
+    },
+    {
+      "id": "embedded-system-designer-coach",
+      "repository": "Jovifei/embedded-system-designer-coach",
+      "visibility": "private",
+      "goal": "嵌入式系统设计师陪伴学习闭环",
+      "goal_status": "README历史定位，最终目标待用户确认",
+      "default_branch": "main",
+      "head_sha": "97412eb1561d9c2ac47c3e4d3782822a716ff570",
+      "head_committed_at": "2026-08-20T12:47:05Z",
+      "stage": "unknown",
+      "current_stage": "unknown",
+      "stage_source": "Current execution not verified; see historical readme_stage_claim and open_prs metadata separately.",
+      "completion_percentage": null,
+      "evidence_url": "https://github.com/Jovifei/embedded-system-designer-coach/blob/97412eb1561d9c2ac47c3e4d3782822a716ff570/README.md",
+      "previous_catalog_id": "embedded-system-designer-coach",
+      "baseline_observed_at": "2026-10-25T05:54:42Z",
+      "readme_stage_claim": "PHASE_0_SCAFFOLD_READY_LOCAL_ONLY",
+      "execution_status": "unknown",
+      "open_prs": {
+        "checked_at": "2026-10-25T06:22:29.580Z",
+        "status": "found",
+        "items": [
+          {
+            "number": 3,
+            "title": "docs: 每日位掩码练习、资料核验与同步安全记录",
+            "url": "https://github.com/Jovifei/embedded-system-designer-coach/pull/3",
+            "head_ref": "docs/obsidian-sync-safety-20261022",
+            "head_sha": "72a0421870c3171be5a759b5cb6668b244f987cc",
+            "base_ref": "docs/official-study-resources-20261021",
+            "updated_at": "2026-10-25T04:05:19Z",
+            "draft": true
+          },
+          {
+            "number": 2,
+            "title": "docs: 官方备考资料索引与首节30分钟练习",
+            "url": "https://github.com/Jovifei/embedded-system-designer-coach/pull/2",
+            "head_ref": "docs/official-study-resources-20261021",
+            "head_sha": "e65c4943c37c5bc395eda937523066c7283ee6eb",
+            "base_ref": "main",
+            "updated_at": "2026-10-21T12:53:50Z",
+            "draft": true
+          }
+        ],
+        "selection": "最多2项，state=open，sort=updated，direction=desc；非全部开放PR清单",
+        "source_url": "https://api.github.com/repos/Jovifei/embedded-system-designer-coach/pulls?state=open&sort=updated&direction=desc&per_page=2"
+      }
+    },
+    {
+      "id": "personal-health-hub",
+      "repository": "Jovifei/personal-health-hub",
+      "visibility": "private",
+      "goal": "本地优先健康资料、睡眠运动与保险条款整理",
+      "goal_status": "README历史定位，最终目标待用户确认",
+      "default_branch": "main",
+      "head_sha": "bdb347041de45f8ca0d17d09d733b67838fc8636",
+      "head_committed_at": "2026-10-20T15:21:32Z",
+      "stage": "unknown",
+      "current_stage": "unknown",
+      "stage_source": "Current execution not verified; see historical readme_stage_claim and open_prs metadata separately.",
+      "completion_percentage": null,
+      "evidence_url": "https://github.com/Jovifei/personal-health-hub/blob/bdb347041de45f8ca0d17d09d733b67838fc8636/README.md",
+      "previous_catalog_id": "personal-health-hub",
+      "baseline_observed_at": "2026-10-25T05:54:42Z",
+      "readme_stage_claim": "本地合成资料Alpha候选；真实资料迁入未批准",
+      "execution_status": "unknown",
+      "open_prs": {
+        "checked_at": "2026-10-25T06:22:29.567Z",
+        "status": "found",
+        "items": [
+          {
+            "number": 11,
+            "title": "R7连接落地：配置包下载、真实Nginx/TLS探针与审查修正",
+            "url": "https://github.com/Jovifei/personal-health-hub/pull/11",
+            "head_ref": "feat/connected-rollout-kit-20261025",
+            "head_sha": "c67444eb26dda9c7910dadf1efe4218b361cb994",
+            "base_ref": "codex/connected-local-verify-20261021",
+            "updated_at": "2026-10-24T17:23:43Z",
+            "draft": true
+          },
+          {
+            "number": 10,
+            "title": "连接落地：独立手机汇总网关、就医事件证据链与受控AI证据包",
+            "url": "https://github.com/Jovifei/personal-health-hub/pull/10",
+            "head_ref": "feat/connected-health-20261021",
+            "head_sha": "9bb1b7c683b88dd8796614c5e6bdcda502d50012",
+            "base_ref": "feat/ui-redesign-login-and-layout-20261021",
+            "updated_at": "2026-10-21T16:14:49Z",
+            "draft": true
+          }
+        ],
+        "selection": "最多2项，state=open，sort=updated，direction=desc；非全部开放PR清单",
+        "source_url": "https://api.github.com/repos/Jovifei/personal-health-hub/pulls?state=open&sort=updated&direction=desc&per_page=2"
+      }
+    }
+  ],
+  "pr_observed_at": "2026-10-25T06:22:29Z",
+  "baseline_semantics": "默认main仅为05:54核验时的baseline，不保证正在执行、本地工作区、生产部署或最新候选；开放PR只是候选线索，亦不证明正在执行。",
+  "stage_semantics": "README只作为固定SHA历史定位/阶段声明，不是当前唯一事实源；当前执行状态unknown，需结合本地状态、候选证据和用户确认。",
+  "metadata_provenance": "Parent-provided GitHub read-only snapshot; not fetched again by this packaging run.",
+  "auto_import": false
+}

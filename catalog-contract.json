@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Owner catalog v1 envelope",
+  "description": "Action-specific data validation is authoritative in catalog.py; see docs/CATALOG.md.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "event_id",
+    "project_id",
+    "actor",
+    "action",
+    "scope",
+    "expected_revision",
+    "reason",
+    "data"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "project_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "pattern": "^[a-zA-Z0-9_.-]+$"
+    },
+    "actor": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "schema_version": {
+      "const": 1
+    },
+    "action": {
+      "enum": [
+        "create",
+        "update",
+        "archive",
+        "restore",
+        "confirm_goal"
+      ]
+    },
+    "scope": {
+      "enum": [
+        "project",
+        "stream"
+      ]
+    },
+    "expected_revision": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "reason": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000
+    },
+    "data": {
+      "type": "object"
+    },
+    "worktree_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "branch": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "is_test": {
+      "type": "boolean"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "scope": {
+            "const": "stream"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "worktree_id",
+          "branch",
+          "is_test"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "action": {
+            "enum": [
+              "archive",
+              "restore"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "data": {
+            "type": "object",
+            "maxProperties": 0
+          }
+        }
+      }
+    }
+  ]
+}

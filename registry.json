@@ -1,0 +1,47 @@
+[
+  {
+    "project_id": "example-1",
+    "root": "./workspaces/example-1",
+    "agent_session_configured": false
+  },
+  {
+    "project_id": "example-2",
+    "root": "./workspaces/example-2",
+    "agent_session_configured": false
+  },
+  {
+    "project_id": "example-3",
+    "root": "./workspaces/example-3",
+    "agent_session_configured": false
+  },
+  {
+    "project_id": "example-4",
+    "root": "./workspaces/example-4",
+    "agent_session_configured": false
+  },
+  {
+    "project_id": "example-5",
+    "root": "./workspaces/example-5",
+    "agent_session_configured": false
+  },
+  {
+    "project_id": "example-6",
+    "root": "./workspaces/example-6",
+    "agent_session_configured": false
+  },
+  {
+    "project_id": "example-7",
+    "root": "./workspaces/example-7",
+    "agent_session_configured": false
+  },
+  {
+    "project_id": "example-8",
+    "root": "./workspaces/example-8",
+    "agent_session_configured": false
+  },
+  {
+    "project_id": "example-9",
+    "root": "./workspaces/example-9",
+    "agent_session_configured": false
+  }
+]

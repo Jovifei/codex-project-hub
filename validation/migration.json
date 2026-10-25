@@ -1,0 +1,16 @@
+{
+  "result": "passed",
+  "source_unchanged": true,
+  "tested_private_backup_copy_only": true,
+  "counts": {
+    "projects": 9,
+    "streams": 86,
+    "events": 504
+  },
+  "integrity": "ok",
+  "initialize_twice_preserved_all_original_rows": true,
+  "archive_restore_preserved_original_rows": true,
+  "old_event_retry_duplicate": true,
+  "all_existing_goals_unconfirmed": true,
+  "no_real_data_in_report": true
+}

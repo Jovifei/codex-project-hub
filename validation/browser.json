@@ -1,0 +1,15 @@
+{
+  "synthetic_only": true,
+  "checks": [
+    "Nine synthetic cards; stale badge retained",
+    "50+15 history paging; unconfirmed provenance visible",
+    "Malformed delivery links ignored without crash",
+    "Multiple streams require selection; selected stream respected",
+    "Structured source wins in management and current/next panels without legacy fields/new clock mixing; recorded acceptance never displays passed",
+    "All nine details and return navigation",
+    "Offline last snapshot and recovery; stale/offline not masked",
+    "390px overview and nine details without overflow"
+  ],
+  "page_errors": [],
+  "result": "passed"
+}

@@ -1,0 +1,87 @@
+{
+  "original_source_unchanged": true,
+  "modified_original_files": [
+    {
+      "path": "core.py",
+      "baseline_sha256": "4ad49467c2ded76670f8b428f6c4974391bb5fcb27d7a49cab2e173c62d43050",
+      "candidate_sha256": "8041efde66d719e41a94ad29f049f154ad80ce5ada22e5eb2cb1fcf27546b832"
+    },
+    {
+      "path": "server.py",
+      "baseline_sha256": "2f713f02d6bf9f093a3232fbc6abaf3a772d55de0b5f0f964722a803a773dbba",
+      "candidate_sha256": "9094d4c110fa49a7f86ec1a48f9de0d04eaf0713e2d48549d91f1c06ff65faf2"
+    },
+    {
+      "path": "owner.py",
+      "baseline_sha256": "cb67c7e7e24bb6036250ad1ce2bb3975a1e98dc3328ddb59cec6c531af374a06",
+      "candidate_sha256": "405b7c1f98495344482ebebef837cfd608b0e134f777ae7006efbe2fb1a33cf3"
+    },
+    {
+      "path": "import_evidence.py",
+      "baseline_sha256": "11e9dddbe0e97fa42c1d4ae2c81ecf89ea9879843b4ee9399b04e58e7fc21f9b",
+      "candidate_sha256": "e5e6b5fb7c12d37036b3f3b0b8ab1fe6e1a58ad67019f7aa1a7e58d6ba93a985"
+    },
+    {
+      "path": "contract.json",
+      "baseline_sha256": "93fde12143ba49dc32baa57e89ea6049784ea426266ad046c053c69be376fac3",
+      "candidate_sha256": "48247e4e18699bb208da308e896287df8c98a277b15adc8c65a338e741142a7e"
+    },
+    {
+      "path": "test_evidence.py",
+      "baseline_sha256": "d14f1b08ce4930d65d6084e427fef9f519433a9893ecfc3d3c58fb4981747be3",
+      "candidate_sha256": "58e6dc7c28e80ae82716e7280f62c0db13ac687bd16c17a4d2316caf49368f37"
+    },
+    {
+      "path": "web\\app.js",
+      "baseline_sha256": "6dbcb60ac0294da6c2fbca3e9ac5d4567b57407d88d3478c7e37bfecf13d10ec",
+      "candidate_sha256": "0de75bca661d271505ac4331c7eea389ac55f4f2a57243ee59e3ef09e240f2ff"
+    },
+    {
+      "path": "web\\index.html",
+      "baseline_sha256": "c227dcfcc87c3a45fb8c61a9a6552535b0101679541b9a85398b24f71dc6074e",
+      "candidate_sha256": "36d3eb4982effd33fe20ca3b75a81ba0c0840e0de6ed9c6b03ce8336e9eca1e3"
+    }
+  ],
+  "new_files": [
+    ".gitattributes",
+    ".gitignore",
+    "AGENTS.md",
+    "catalog-contract.json",
+    "catalog.py",
+    "docs/CATALOG.md",
+    "docs/PROJECT_CATALOG_20261025.json",
+    "docs/TRANSFER.md",
+    "examples/archive-project.json",
+    "examples/legacy-aliases.template.json",
+    "examples/new-candidates.template.json",
+    "examples/restore-project.json",
+    "exchange-contract.json",
+    "MUSE_HANDOFF.md",
+    "NOTICE.md",
+    "README.md",
+    "registry.json",
+    "seed.json",
+    "test_catalog_document.py",
+    "test_extended.py",
+    "test_frontend.cjs",
+    "test_hardening.py",
+    "tests/browser_synthetic.py",
+    "tests/fixtures/evidence.json",
+    "transfer.py",
+    "validation/browser-tests.txt",
+    "validation/browser.json",
+    "validation/cli-smoke.json",
+    "validation/frontend-tests.txt",
+    "validation/js-syntax.txt",
+    "validation/migration-test.txt",
+    "validation/migration.json",
+    "validation/mobile.png",
+    "validation/overview.png",
+    "validation/precedence.png",
+    "validation/privacy-scan.json",
+    "validation/README.md",
+    "validation/review-v2-red.json",
+    "validation/source-changes.json",
+    "validation/unit-tests.txt"
+  ]
+}

@@ -1,0 +1,23 @@
+const vm=require('node:vm'),fs=require('node:fs'),assert=require('node:assert/strict');
+const sandbox={document:{getElementById:()=>({}),querySelectorAll:()=>[]},window:{addEventListener:()=>{}},location:{hash:'',pathname:'/'},fetch:()=>new Promise(()=>{}),setInterval:()=>{},AbortSignal,URL,Date,console};
+vm.createContext(sandbox);vm.runInContext(fs.readFileSync('web/app.js','utf8'),sandbox);
+const run=code=>vm.runInContext(code,sandbox);let failures=0;
+function check(name,fn){try{fn();console.log('PASS '+name)}catch(e){failures++;console.error('FAIL '+name+': '+e.message)}}
+const meta={version:1,project_id:'example-1',phases:Array.from({length:5},()=>({state:'pending',note:'Synthetic',evidence_at:new Date().toISOString()})),evidence_links:[],check_time:new Date().toISOString(),last_actual_progress:'Synthetic',owner:'Synthetic',check_scope:'Synthetic',source_role:'Synthetic'};
+sandbox.meta=meta;run("globalThis.make=(m,pid='example-1')=>({worktree_id:'test',branch:'main',is_test:false,status:{project_id:pid,reported_at:new Date().toISOString(),artifacts:['hub_delivery_v1:'+JSON.stringify(m)]}})");
+check('valid delivery accepted',()=>assert(run('deliveryMeta(make(meta))')));
+check('cross-project delivery rejected',()=>assert.equal(run("deliveryMeta(make({...meta,project_id:'other'}))"),null));
+check('malformed evidence_links rejected',()=>assert.equal(run('deliveryMeta(make({...meta,evidence_links:{}}))'),null));
+check('null phase rejected',()=>assert.equal(run('deliveryMeta(make({...meta,phases:[null,null,null,null,null]}))'),null));
+check('no cross-stream newest selection',()=>assert.equal(run("deliveryStream({project_id:'example-1',streams:[make(meta),{...make(meta),branch:'other'}]})"),null));
+check('explicit selection respected',()=>assert.equal(run("selected['example-1']=JSON.stringify(['test','other',false]);deliveryStream({project_id:'example-1',streams:[make(meta),{...make(meta),branch:'other',status:{...make(meta).status,artifacts:[]}}]})"),null));
+check('offline badge preserved',()=>assert(run("online=false;deliveryBadge(make(meta))").includes('断线')));
+check('stale badge preserved',()=>assert(run("online=true;deliveryBadge({...make(meta),status:{...make(meta).status,reported_at:'2020-01-01T00:00:00Z'}})").includes('过期')));
+check('future checked time rejected',()=>assert.equal(run("deliveryMeta(make({...meta,check_time:'2099-01-01T00:00:00Z'}))"),null));
+check('future status unknown',()=>assert(run("state({...make(meta),status:{...make(meta).status,reported_at:'2099-01-01T00:00:00Z'}})").includes('异常')));
+check('cross-project evidence rejected',()=>assert.equal(run("evidenceMeta({is_test:false,status:{kind:'status',project_id:'example-1',current:[],artifacts:['hub_evidence_v1:'+JSON.stringify({version:1,project_id:'other',checkedAt:new Date().toISOString(),source:'test',accessGaps:[],project:{goal:'g',current:'c',next:'n',lastEngineeringAt:new Date().toISOString(),blockers:[],stages:[{id:'a',title:'a',detail:'a',status:'recorded',evidence:[]}]}})]}})"),null));
+sandbox.richFixture={version:1,project_id:'example-1',checkedAt:'2026-10-11T08:00:00Z',source:'NEW SOURCE',notice:'NEW NOTICE',accessGaps:[],project:{goal:'NEW GOAL',current:'NEW PHASE',next:'NEW NEXT',blockers:['NEW BLOCKER'],lastEngineeringAt:'2026-10-10T00:00:00Z',stages:[{id:'code',title:'New code',status:'recorded',detail:'Only recorded',evidence:[]}]}};
+run("globalThis.legacyRichStream={is_test:false,status:{kind:'status',project_id:'example-1',reported_at:'2026-10-11T08:00:00Z',current:['最终可观察效果（管理摘要，未改Owner目标）：OLD GOAL','当前阶段：OLD PHASE','最近确认动作（来源分层）：OLD ACTION','当前责任分工；最后有效用户决定 OLD DECISION','已验收与仅回执：OLD ACCEPTED','读取覆盖：OLD COVERAGE'],next:['下一阶段：OLD NEXT','验收条件：OLD ACCEPTANCE'],blockers:['OLD BLOCKER'],artifacts:['hub_evidence_v1:'+JSON.stringify(richFixture)]}}");
+check('rich source wins over legacy summary without mixed timestamp',()=>{const p=run('evidenceMeta(legacyRichStream)');assert.equal(p.project.goal,'NEW GOAL');assert.equal(p.project.current,'NEW PHASE');assert.equal(p.project.next,'NEW NEXT');assert.equal(p.project.blockers[0],'NEW BLOCKER');assert.equal(p.project.decision,undefined);assert.equal(p.checkedAt,sandbox.richFixture.checkedAt)});
+check('recorded delivery is rendered as recorded',()=>assert(run("deliveryMeta(make({...meta,phases:meta.phases.map(p=>({...p,state:'recorded'}))}))")));
+process.exitCode=failures?1:0;

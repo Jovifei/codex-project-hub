@@ -1,0 +1,13 @@
+PASS valid delivery accepted
+PASS cross-project delivery rejected
+PASS malformed evidence_links rejected
+PASS null phase rejected
+PASS no cross-stream newest selection
+PASS explicit selection respected
+PASS offline badge preserved
+PASS stale badge preserved
+PASS future checked time rejected
+PASS future status unknown
+PASS cross-project evidence rejected
+PASS rich source wins over legacy summary without mixed timestamp
+PASS recorded delivery is rendered as recorded

@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+data/
+backups/
+exports/
+reports/
+evidence/
+audit-private*/
+*.sqlite3*
+.env
+.env.*
+!.env.example
+*.log
+registry.local.json
+*.zip

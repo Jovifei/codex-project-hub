@@ -1,0 +1,20 @@
+{
+  "result": "passed",
+  "scope": "Curated source tree only; not a guarantee against every secret format",
+  "patterns": [
+    "github_token",
+    "private_key",
+    "aws_access_key",
+    "email",
+    "real_status_sha"
+  ],
+  "findings": [],
+  "excluded": [
+    "actual SQLite/WAL/SHM",
+    "real seed/registry",
+    "raw chats/logs/status history",
+    "original reports/screenshots",
+    "private backups"
+  ],
+  "seed": "nine synthetic examples; candidate templates are unconfirmed metadata only"
+}

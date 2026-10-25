@@ -1,0 +1,1 @@
+Private handoff source. No public open-source license is granted by this package. Illustrations are retained from the user-provided dashboard; confirm redistribution rights before public release. Python and browser engines are external runtimes, not bundled.

@@ -1,0 +1,173 @@
+{
+  "schema": "hub-catalog-candidates-v1",
+  "candidate_count_observed": 12,
+  "scope": "Nine legacy IDs plus three unconfirmed candidates; not a confirmed total",
+  "apply_automatically": false,
+  "operations": [
+    {
+      "schema_version": 1,
+      "event_id": "REPLACE-alias-jovi-automation",
+      "action": "update",
+      "project_id": "jovi-automation",
+      "scope": "project",
+      "expected_revision": 0,
+      "actor": "REPLACE_OPERATOR",
+      "reason": "Review aliases locally; README is a historical clue, not approval",
+      "data": {
+        "canonical_repository": "Jovifei/Automation_Jovi",
+        "aliases": [
+          "automation-jovi"
+        ],
+        "goal_status": "unconfirmed",
+        "goal_source_ref": "https://github.com/Jovifei/Automation_Jovi/blob/main/README.md",
+        "goal_source_version": "REPLACE_WITH_REVIEWED_SHA"
+      }
+    },
+    {
+      "schema_version": 1,
+      "event_id": "REPLACE-alias-ai-photography-director-app",
+      "action": "update",
+      "project_id": "ai-photography-director-app",
+      "scope": "project",
+      "expected_revision": 0,
+      "actor": "REPLACE_OPERATOR",
+      "reason": "Review aliases locally; README is a historical clue, not approval",
+      "data": {
+        "canonical_repository": "Jovifei/ai-photography-director-app",
+        "aliases": [
+          "ai-photography-director"
+        ],
+        "goal_status": "unconfirmed",
+        "goal_source_ref": "https://github.com/Jovifei/ai-photography-director-app/blob/main/README.md",
+        "goal_source_version": "REPLACE_WITH_REVIEWED_SHA"
+      }
+    },
+    {
+      "schema_version": 1,
+      "event_id": "REPLACE-alias-nightly-photo-intelligence-pipeline",
+      "action": "update",
+      "project_id": "nightly-photo-intelligence-pipeline",
+      "scope": "project",
+      "expected_revision": 0,
+      "actor": "REPLACE_OPERATOR",
+      "reason": "Review aliases locally; README is a historical clue, not approval",
+      "data": {
+        "canonical_repository": "Jovifei/nightly-photo-intelligence-pipeline",
+        "aliases": [
+          "nightly-photo-intelligence"
+        ],
+        "goal_status": "unconfirmed",
+        "goal_source_ref": "https://github.com/Jovifei/nightly-photo-intelligence-pipeline/blob/main/README.md",
+        "goal_source_version": "REPLACE_WITH_REVIEWED_SHA"
+      }
+    },
+    {
+      "schema_version": 1,
+      "event_id": "REPLACE-alias-openclaw-videofactory",
+      "action": "update",
+      "project_id": "openclaw-videofactory",
+      "scope": "project",
+      "expected_revision": 0,
+      "actor": "REPLACE_OPERATOR",
+      "reason": "Review aliases locally; README is a historical clue, not approval",
+      "data": {
+        "canonical_repository": "Jovifei/OpenClaw_VideoFactory",
+        "aliases": [
+          "openclaw-video-factory"
+        ],
+        "goal_status": "unconfirmed",
+        "goal_source_ref": "https://github.com/Jovifei/OpenClaw_VideoFactory/blob/main/README.md",
+        "goal_source_version": "REPLACE_WITH_REVIEWED_SHA"
+      }
+    },
+    {
+      "schema_version": 1,
+      "event_id": "REPLACE-alias-star-photo-addr",
+      "action": "update",
+      "project_id": "star-photo-addr",
+      "scope": "project",
+      "expected_revision": 0,
+      "actor": "REPLACE_OPERATOR",
+      "reason": "Review aliases locally; README is a historical clue, not approval",
+      "data": {
+        "canonical_repository": "Jovifei/Star_photo_addr",
+        "aliases": [],
+        "goal_status": "unconfirmed",
+        "goal_source_ref": "https://github.com/Jovifei/Star_photo_addr/blob/main/README.md",
+        "goal_source_version": "REPLACE_WITH_REVIEWED_SHA"
+      }
+    },
+    {
+      "schema_version": 1,
+      "event_id": "REPLACE-alias-matelink",
+      "action": "update",
+      "project_id": "matelink",
+      "scope": "project",
+      "expected_revision": 0,
+      "actor": "REPLACE_OPERATOR",
+      "reason": "Review aliases locally; README is a historical clue, not approval",
+      "data": {
+        "canonical_repository": "Jovifei/tesla-master-mimo",
+        "aliases": [
+          "tesla-master-mimo"
+        ],
+        "goal_status": "unconfirmed",
+        "goal_source_ref": "https://github.com/Jovifei/tesla-master-mimo/blob/main/README.md",
+        "goal_source_version": "REPLACE_WITH_REVIEWED_SHA"
+      }
+    },
+    {
+      "schema_version": 1,
+      "event_id": "REPLACE-alias-etf-fund-analysis",
+      "action": "update",
+      "project_id": "etf-fund-analysis",
+      "scope": "project",
+      "expected_revision": 0,
+      "actor": "REPLACE_OPERATOR",
+      "reason": "Review aliases locally; README is a historical clue, not approval",
+      "data": {
+        "canonical_repository": "Jovifei/ETF-Fund-Analysis",
+        "aliases": [],
+        "goal_status": "unconfirmed",
+        "goal_source_ref": "https://github.com/Jovifei/ETF-Fund-Analysis/blob/main/README.md",
+        "goal_source_version": "REPLACE_WITH_REVIEWED_SHA"
+      }
+    },
+    {
+      "schema_version": 1,
+      "event_id": "REPLACE-alias-tesla-speed",
+      "action": "update",
+      "project_id": "tesla-speed",
+      "scope": "project",
+      "expected_revision": 0,
+      "actor": "REPLACE_OPERATOR",
+      "reason": "Review aliases locally; README is a historical clue, not approval",
+      "data": {
+        "canonical_repository": "Jovifei/Tesla_Simulate_vico",
+        "aliases": [
+          "tesla-simulate-vico"
+        ],
+        "goal_status": "unconfirmed",
+        "goal_source_ref": "https://github.com/Jovifei/Tesla_Simulate_vico/blob/main/README.md",
+        "goal_source_version": "REPLACE_WITH_REVIEWED_SHA"
+      }
+    },
+    {
+      "schema_version": 1,
+      "event_id": "REPLACE-alias-medcial-box",
+      "action": "update",
+      "project_id": "medcial-box",
+      "scope": "project",
+      "expected_revision": 0,
+      "actor": "REPLACE_OPERATOR",
+      "reason": "Review aliases locally; README is a historical clue, not approval",
+      "data": {
+        "canonical_repository": "Jovifei/Medcial-box",
+        "aliases": [],
+        "goal_status": "unconfirmed",
+        "goal_source_ref": "https://github.com/Jovifei/Medcial-box/blob/main/README.md",
+        "goal_source_version": "REPLACE_WITH_REVIEWED_SHA"
+      }
+    }
+  ]
+}

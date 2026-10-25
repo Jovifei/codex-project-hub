@@ -1,0 +1,117 @@
+{
+  "schema": "hub-catalog-candidates-v1",
+  "apply_automatically": false,
+  "operations": [
+    {
+      "schema_version": 1,
+      "event_id": "REPLACE-candidate-ai-short-vidio-claw",
+      "action": "create",
+      "project_id": "ai-short-vidio-claw",
+      "scope": "project",
+      "expected_revision": 0,
+      "actor": "REPLACE_OPERATOR",
+      "reason": "Unconfirmed candidate from repository README; local aliases pending",
+      "data": {
+        "project_id": "ai-short-vidio-claw",
+        "number": 10,
+        "name": "AI短剧候选",
+        "category": "待确认候选",
+        "root": "./workspaces/ai-short-vidio-claw",
+        "art": "/art/1.svg",
+        "goal": "候选定位，待负责人确认：角色一致、可追溯的9:16 AI短剧生产线",
+        "goal_status": "candidate_unconfirmed",
+        "canonical_repository": "Jovifei/AI-short-vidio-claw",
+        "aliases": [],
+        "goal_source_ref": "https://github.com/Jovifei/AI-short-vidio-claw/blob/main/README.md",
+        "goal_source_version": "REPLACE_WITH_REVIEWED_SHA",
+        "acceptance": [
+          {
+            "id": "a1",
+            "text": "由负责人明确确认目标、范围和验收依据"
+          }
+        ],
+        "route": [
+          {
+            "id": "s1",
+            "name": "待确认候选",
+            "detail": "没有运行状态或完成率结论"
+          }
+        ]
+      }
+    },
+    {
+      "schema_version": 1,
+      "event_id": "REPLACE-candidate-embedded-system-designer-coach",
+      "action": "create",
+      "project_id": "embedded-system-designer-coach",
+      "scope": "project",
+      "expected_revision": 0,
+      "actor": "REPLACE_OPERATOR",
+      "reason": "Unconfirmed candidate from repository README; local aliases pending",
+      "data": {
+        "project_id": "embedded-system-designer-coach",
+        "number": 11,
+        "name": "学习工具候选",
+        "category": "待确认候选",
+        "root": "./workspaces/embedded-system-designer-coach",
+        "art": "/art/1.svg",
+        "goal": "候选定位，待负责人确认：嵌入式系统设计师学习闭环",
+        "goal_status": "candidate_unconfirmed",
+        "canonical_repository": "Jovifei/embedded-system-designer-coach",
+        "aliases": [],
+        "goal_source_ref": "https://github.com/Jovifei/embedded-system-designer-coach/blob/main/README.md",
+        "goal_source_version": "REPLACE_WITH_REVIEWED_SHA",
+        "acceptance": [
+          {
+            "id": "a1",
+            "text": "由负责人明确确认目标、范围和验收依据"
+          }
+        ],
+        "route": [
+          {
+            "id": "s1",
+            "name": "待确认候选",
+            "detail": "没有运行状态或完成率结论"
+          }
+        ]
+      }
+    },
+    {
+      "schema_version": 1,
+      "event_id": "REPLACE-candidate-personal-health-hub",
+      "action": "create",
+      "project_id": "personal-health-hub",
+      "scope": "project",
+      "expected_revision": 0,
+      "actor": "REPLACE_OPERATOR",
+      "reason": "Unconfirmed candidate from repository README; local aliases pending",
+      "data": {
+        "project_id": "personal-health-hub",
+        "number": 12,
+        "name": "健康资料工具候选",
+        "category": "待确认候选",
+        "root": "./workspaces/personal-health-hub",
+        "art": "/art/1.svg",
+        "goal": "候选定位，待负责人确认：本地优先健康资料整理",
+        "goal_status": "candidate_unconfirmed",
+        "canonical_repository": "Jovifei/personal-health-hub",
+        "aliases": [],
+        "goal_source_ref": "https://github.com/Jovifei/personal-health-hub/blob/main/README.md",
+        "goal_source_version": "REPLACE_WITH_REVIEWED_SHA",
+        "acceptance": [
+          {
+            "id": "a1",
+            "text": "由负责人明确确认目标、范围和验收依据"
+          }
+        ],
+        "route": [
+          {
+            "id": "s1",
+            "name": "待确认候选",
+            "detail": "没有运行状态或完成率结论"
+          }
+        ]
+      }
+    }
+  ]
+}

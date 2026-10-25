@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Hub status exchange v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "events"
+  ],
+  "properties": {
+    "schema": {
+      "const": "hub-status-exchange-v1"
+    },
+    "events": {
+      "type": "array",
+      "maxItems": 1000,
+      "items": {
+        "$ref": "contract.json#/oneOf/0"
+      }
+    }
+  }
+}

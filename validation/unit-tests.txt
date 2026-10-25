@@ -1,0 +1,44 @@
+test_authorized_catalog_is_read_only_unconfirmed_and_separate_from_demo (test_catalog_document.CatalogDocumentTests.test_authorized_catalog_is_read_only_unconfirmed_and_separate_from_demo) ... ok
+test_arbitrary_file_routes_rejected (test_core.HTTPTest.test_arbitrary_file_routes_rejected) ... ok
+test_cross_site_write_rejected (test_core.HTTPTest.test_cross_site_write_rejected) ... ok
+test_host_dns_rebinding_rejected (test_core.HTTPTest.test_host_dns_rebinding_rejected) ... ok
+test_preflight_not_supported (test_core.HTTPTest.test_preflight_not_supported) ... ok
+test_simple_form_write_rejected (test_core.HTTPTest.test_simple_form_write_rejected) ... ok
+test_append_only (test_core.LedgerTest.test_append_only) ... ok
+test_claim_verify_reopen_and_new_report_invalidates (test_core.LedgerTest.test_claim_verify_reopen_and_new_report_invalidates) ... ok
+test_concurrent_writers_one_wins (test_core.LedgerTest.test_concurrent_writers_one_wins) ... ok
+test_conflict_preserves_last_valid_snapshot (test_core.LedgerTest.test_conflict_preserves_last_valid_snapshot) ... ok
+test_definition_separate_and_scoped (test_core.LedgerTest.test_definition_separate_and_scoped) ... ok
+test_event_id_collision (test_core.LedgerTest.test_event_id_collision) ... ok
+test_idempotent_retry_after_restart (test_core.LedgerTest.test_idempotent_retry_after_restart) ... ok
+test_old_report_rejected (test_core.LedgerTest.test_old_report_rejected) ... ok
+test_schema_unknown_and_goal_in_status_rejected (test_core.LedgerTest.test_schema_unknown_and_goal_in_status_rejected) ... ok
+test_unregistered_project (test_core.LedgerTest.test_unregistered_project) ... ok
+test_worktree_branch_and_test_isolation (test_core.LedgerTest.test_worktree_branch_and_test_isolation) ... ok
+test_claimed_receipt_cannot_pass_real_acceptance (test_evidence.EvidenceTests.test_claimed_receipt_cannot_pass_real_acceptance) ... ok
+test_custom_registered_id_format_and_paged_duplicate_lookup (test_evidence.EvidenceTests.test_custom_registered_id_format_and_paged_duplicate_lookup) ... ok
+test_malformed_and_unsafe (test_evidence.EvidenceTests.test_malformed_and_unsafe) ... ok
+test_new_projection_drops_only_old_management_summary_lines (test_evidence.EvidenceTests.test_new_projection_drops_only_old_management_summary_lines) ... ok
+test_old_projection_rejected (test_evidence.EvidenceTests.test_old_projection_rejected) ... ok
+test_recorded_never_becomes_passed (test_evidence.EvidenceTests.test_recorded_never_becomes_passed) ... ok
+test_registered_ids_are_never_implicitly_aliased (test_evidence.EvidenceTests.test_registered_ids_are_never_implicitly_aliased) ... ok
+test_revision_conflict_merge_and_duplicate (test_evidence.EvidenceTests.test_revision_conflict_merge_and_duplicate) ... ok
+test_unknown_import_target_rejected_before_send (test_evidence.EvidenceTests.test_unknown_import_target_rejected_before_send) ... ok
+test_valid_size_and_preserve_fields (test_evidence.EvidenceTests.test_valid_size_and_preserve_fields) ... ok
+test_candidate_source_does_not_confirm_goal (test_extended.ExtendedTests.test_candidate_source_does_not_confirm_goal) ... ok
+test_catalog_edit_audit_keeps_previous_metadata (test_extended.ExtendedTests.test_catalog_edit_audit_keeps_previous_metadata) ... ok
+test_history_stream_filter (test_extended.ExtendedTests.test_history_stream_filter) ... ok
+test_status_exchange_preview_and_apply (test_extended.ExtendedTests.test_status_exchange_preview_and_apply) ... ok
+test_stream_archive_blocks_new_reports_not_retries (test_extended.ExtendedTests.test_stream_archive_blocks_new_reports_not_retries) ... ok
+test_stream_confirmation_invalidated_by_definition (test_extended.ExtendedTests.test_stream_confirmation_invalidated_by_definition) ... ok
+test_archive_restore_preserves_history (test_hardening.CatalogTests.test_archive_restore_preserves_history) ... ok
+test_catalog_cas_and_duplicate (test_hardening.CatalogTests.test_catalog_cas_and_duplicate) ... ok
+test_goal_confirmation_requires_evidence_and_matches_definition (test_hardening.CatalogTests.test_goal_confirmation_requires_evidence_and_matches_definition) ... ok
+test_history_pagination (test_hardening.CatalogTests.test_history_pagination) ... ok
+test_new_project_and_update_cannot_silently_change_goal (test_hardening.CatalogTests.test_new_project_and_update_cannot_silently_change_goal) ... ok
+test_schema_supports_registered_custom_ids (test_hardening.CatalogTests.test_schema_supports_registered_custom_ids) ... ok
+
+----------------------------------------------------------------------
+Ran 39 tests in 2.895s
+
+OK

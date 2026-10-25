@@ -1,0 +1,13 @@
+{
+  "result": "passed",
+  "isolated_synthetic_source_copy": true,
+  "checks": [
+    "init/list",
+    "archive/restore",
+    "catalog audit",
+    "online SQLite backup",
+    "catalog export",
+    "status export/import preview",
+    "standalone HTML file opened with nine cards/no page errors"
+  ]
+}
